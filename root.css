@@ -2,7 +2,7 @@
     /* overlay */
     --bg-widthPhone: 280;
     --bg-heightPhone: 617;
-    --bg-borderRadiusPhone: 38px;
+    --bg-borderRadiusPhone: 8px;
 
     --phone-2ndScreen-height: 0;
     --phone-2ndScreen-width: 0;
@@ -77,8 +77,8 @@
 }
 :root {
     /*animation*/
-    --animOpeningApp-cubicBezier: cubic-bezier(0.15, 0.1, 0.15, 1);
-    --animClosingApp-cubicBezier: cubic-bezier(0.35, 1.1, 0.33, 1);
+    --animOpeningApp-cubicBezier: cubic-bezier(0.3, 0, 0.21, 1);
+    --animClosingApp-cubicBezier: cubic-bezier(0.25, 0, 0, 1);
 }
 
 :root {
