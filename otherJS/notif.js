@@ -348,17 +348,3 @@ function addItemToStack(content = "", dataApp = "") {
 }
 
 //scroll listener
-const containerLockNotif = document.querySelector("#lockScreen .stackContainer");
-const stackWrapper = document.querySelector(".stackWrapper");
-
-{
-    setTimeout(() => {
-        const viewport = document.querySelector(".stackWrapper");
-        const content = document.querySelector(".stackContainer");
-
-        addScrollScriptWithoutReset(viewport, content, (y) => {
-            updateStack(containerLockNotif);
-            if (y < -60) lockContentDiv.style.transform = `translate(0px, ${y + 60}px)`;
-        });
-    }, 100);
-}
