@@ -7,7 +7,7 @@ const animationFP_time = {
     begonia: 13,
     duckweed: 13,
     fountain: 35,
-    ripple: 13,
+    ripple: 25,
     fusion: 30,
     gala: 30,
     phantom: 30,
