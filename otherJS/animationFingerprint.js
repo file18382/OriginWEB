@@ -15,7 +15,7 @@ const animationFP_time = {
     smog: 30,
 };
 let ani_fingerprint_type = localStorage.getItem("FpAnimation1") || "begonia"; // valuea
-let ani_fadein_fingerprint_type = localStorage.getItem("FpAnimation2") || "enter11/normal"; //valueb //"enter11/normal" "enter11/normal_reverse" "enter12/normal" "enter12/normal_reverse" "coloros_1" "coloros_2"
+let ani_fadein_fingerprint_type = localStorage.getItem("FpAnimation2") || "enter11/normal"; //valueb //"enter11/normal" "enter11/normal_reverse" "enter12/normal" "enter12/normal_reverse" "coloros_1" "coloros_2" "ripple"
 let ani_fadeout_fingerprint_type = localStorage.getItem("FpAnimation2") || "enter11/normal"; //valueb
 
 {
@@ -35,7 +35,7 @@ const animationFP_total = {
     begonia: 58,
     duckweed: 58,
     fountain: 17,
-    ripple: 71,
+    ripple: 60,
     fusion: 30,
     gala: 30,
     phantom: 30,
